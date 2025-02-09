@@ -37,7 +37,8 @@ const config = {
         anthropic: process.env.ANTHROPIC_API_KEY,
         together: process.env.TOGETHER_API_KEY,
         novita: process.env.NOVITA_API_KEY,
-        groq: process.env.GROQ_API_KEY
+        groq: process.env.GROQ_API_KEY,
+        atoma: process.env.ATOMA_API_KEY
     },
 
     // Rin configuration

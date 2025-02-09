@@ -89,7 +89,7 @@ async function startPythonServer() {
         const pythonProcess = spawn(venvPython, [
             '-m', 'uvicorn',
             'api_server:app',
-            '--host', '0.0.0.0',
+            '--host', '127.0.0.1',
             '--port', '8000'
         ], {
             cwd: pythonPath,
@@ -108,7 +108,7 @@ async function startPythonServer() {
         // Check if service is ready
         const checkService = async () => {
             try {
-                const response = await fetch('http://localhost:8000/health');
+                const response = await fetch('http://127.0.0.1:8000/health');
                 if (response.ok) {
                     logger.info('✅ Python service is ready');
                     resolve(pythonProcess);
