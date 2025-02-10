@@ -33,12 +33,12 @@ class CommandAnalysis(BaseModel):
     reasoning: str = Field(description="Explanation of tool selection")
 
 class Orchestrator:
-    """Core tool orchestrator powered by Groq"""
+    """Core tool orchestrator powered by Atoma"""
     
     def __init__(self, deps: Optional[AgentDependencies] = None):
         """Initialize orchestrator with optional dependencies"""
         self.llm_service = LLMService({
-            "model_type": ModelType.GROQ_LLAMA_3_3_70B
+            "model_type": ModelType.ATOMA_LLAMA_3_3_70B
         })
         
         # Initialize clients with proper error handling
@@ -203,7 +203,7 @@ For current events:
             # Get LLM response
             response = await self.llm_service.get_response(
                 prompt=messages,
-                model_type=ModelType.GROQ_LLAMA_3_3_70B,
+                model_type=ModelType.ATOMA_LLAMA_3_3_70B,
                 override_config={
                     "temperature": 0.1,
                     "max_tokens": 500
