@@ -3,6 +3,8 @@
 
 RinAI is a sophisticated agentic companion, leveraging graph-based Retrieval Augmented Generation (RAG), real-time tool usage, intelligent context management, and a dynamic Large Language Model (LLM) gateway. This combination empowers RinAI to engage in roleplaying, hold flirty conversations, and provide insightful responses based on a rich understanding of context and access to up-to-date information.
 
+[Demo Link](https://youtu.be/M5GW1Newl1M)
+
 ## Key Features
 
 ![RinAI Agent Stack](https://github.com/dleerdefi/peak-ai-agent-stack/blob/main/assets/images/RinAI%20Agent%20Stack.png)
