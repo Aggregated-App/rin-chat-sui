@@ -28,6 +28,16 @@ RinAI is a sophisticated agentic companion, leveraging graph-based Retrieval Aug
 
 ![RinAI Smart Context Management](https://github.com/dleerdefi/peak-ai-agent-stack/blob/main/assets/images/RinAI%20Smart%20Context.png)
 
+# Atoma Network Integration
+![Sui Agent Typhoon](https://media.licdn.com/dms/image/v2/D5622AQG5gnSSyLBUpQ/feedshare-shrink_800/B56ZO7OMTyGcAg-/0/1734012883424?e=2147483647&v=beta&t=50iJVHg_sgaAiJ02tYrym3Y0HMMYnxRx09MHzrLtvFk)
+
+RinAI utilizes [Atoma](https://www.atoma.network/) (Llama 3.3 70B Instruct) to power its core chat and orchestration functionalities. This provides the RinAI agent stack with a decentralized private and verifiable AI execution network enabling an additional layer of privacy for users.
+
+Planned updates:
+* Sui wallet Integration
+* Sui mainnet Tools (dApp Integrations, transaction execuations, Advanced trading stratagies, etc.)
+* Formal user account model
+
 ## Architecture
 
 RinAI's architecture comprises three main components:
